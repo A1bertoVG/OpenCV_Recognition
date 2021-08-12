@@ -3,7 +3,7 @@
 ### Projects:
 
 1. _Face Recognition_
-    2. _Face recognition in real time_
+   2. _Face recognition in real time_
 2. _Smile recognition_
 3. _Car recognition_
 4. _Car & pedestrian recognition_
