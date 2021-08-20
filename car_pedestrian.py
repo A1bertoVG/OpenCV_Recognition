@@ -4,7 +4,7 @@ trained_car_data = cv2.CascadeClassifier('car.xml')
 trained_fullbody_data = cv2.CascadeClassifier('haarcascade_fullbody.xml')
 
 video = cv2.VideoCapture('src/media/car-ped.mp4')
-#video = cv2.VideoCapture('src/media/car-ped2.mp4')
+# video = cv2.VideoCapture('src/media/car-ped2.mp4')
 
 
 while True:
