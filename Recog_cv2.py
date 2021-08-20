@@ -7,7 +7,8 @@ trained_car_data = cv2.CascadeClassifier('car.xml')  # https://gist.github.com/1
 
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-car_coord = trained_car_data.detectMultiScale(gray_img, scaleFactor=1.0949)
+car_coord = trained_car_data.detectMultiScale(gray_img)
+
 # print(car_coord)
 
 for (x, y, w, h) in car_coord:
