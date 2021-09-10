@@ -2,11 +2,11 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/100px-OpenCV_Logo_with_text_svg_version.svg.png)  
 ### Projects:
 
-1. _Face Recognition_
-   2. _Face recognition in real time_
-2. _Smile recognition_
-3. _Car recognition_
-4. _Car & pedestrian recognition_
+1. _Face Recognition on pictures._
+2. _Face recognition in real time._
+3. _Car recognition._
+4. _Car & pedestrian recognition._
+5. _Smile recognition._
 
 
 **What's _Open CV_?**
@@ -18,9 +18,15 @@ It has C++, Python, Java and Matlab interfaces and supports Windows, Linux, Andr
 
 Some uses of this algorithms are face recognition, identificate objects, classify human actions, tracking movements and more. For this projects I'll be using 4 of this algorithms wich will be:
 
-- Project 1: [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xmlhttps://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
-- Project 2:
+- Project 1, 2 & 5: [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xmlhttps://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 - Project 3:
-- Project 4:
+- Project 4: [haarcascade_fullbody.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_fullbody.xml)
+- Project 5: [haarcascade_smile.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_smile.xml)
 
+[Here](https://github.com/opencv/opencv) you can find all the algorithms and more files from **OpenCV**. In order to review every project just select on the branches section the one of your interest, but before let's explain how the code is 
+structured.
+
+Even though we have 3 different projects, they share the same structure of code:
+
+1. At the beginning we import **OpenCV** library and save in a variable the _haarcascade algorithm_ that we will use. Furthermore we type the source to be analysed (from photo,video or webcam).  
 
