@@ -16,7 +16,7 @@ It has more than 2500 optimized algorithms, including _classic & state-of-the-ar
 
 It has C++, Python, Java and Matlab interfaces and supports Windows, Linux, Android, and MacOS. 
 
-Some uses of this algorithms are face recognition, identificate objects, classify human actions, tracking movements and more. For this projects I'll be using 4 of this algorithms wich will be:
+Some uses of this algorithms are face recognition, identificate objects, classify human actions, tracking movements and more. For these projects I'll be using 4 of these algorithms which are:
 
 - Project 1, 2 & 5: [haarcascade_frontalface_default.xml](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xmlhttps://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml)
 - Project 3:
